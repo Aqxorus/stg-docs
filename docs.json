@@ -9,6 +9,20 @@
   },
   "favicon": "/stg.ico",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Department Home",
+          "icon": "window",
+          "href": "https://melonly.xyz/department/7417381898411839488/home"
+        },
+        {
+          "anchor": "Deployment Logs",
+          "icon": "folder",
+          "href": "https://melonly.xyz/department/7417381898411839488/applications/7417852935071076352"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Main",
@@ -16,7 +30,9 @@
           {
             "group": "STG - Get Started",
             "icon": "rocket-launch",
-            "pages": ["index", "/dashboard/sops"]
+            "pages": [
+              "index"
+            ]
           }
         ]
       },
@@ -35,21 +51,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Department Home",
-          "href": "https://melonly.xyz/department/7417381898411839488/home",
-          "icon": "window"
-        },
-        {
-          "anchor": "Deployment Logs",
-          "href": "https://melonly.xyz/department/7417381898411839488/applications/7417852935071076352",
-          "icon": "folder"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/stg.png",
